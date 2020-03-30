@@ -1,0 +1,15 @@
+{
+    "name": "seed/packagetest",
+    "authors": [
+        {
+            "name": "seed",
+            "email": "seedo@outlook.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Seed\\Packagetest\\" : "src/"
+        }
+    }
+}
