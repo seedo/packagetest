@@ -38,7 +38,7 @@ class PackagetestServiceProvider extends ServiceProvider
             __DIR__ . '/config/packagetest.php' => config_path('packagetest.php'), // 发布配置文件到 laravel 的config 下
         ]);
 
-        $this->app['packagetest']->register();
+        // $this->app['packagetest']->register();
     }
 
     public function provides()
