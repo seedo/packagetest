@@ -11,5 +11,15 @@
         "psr-4": {
             "Seed\\Packagetest\\" : "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers" : [
+                "Seed\\Packagetest\\PackagetestServiceProvider"
+            ],
+            "aliases": {
+                "Packagetest": "Seed\\Packagetest\\Facades\\Packagetest"
+            }
+        }
     }
 }
